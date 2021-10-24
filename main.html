@@ -22,49 +22,17 @@
 
   <!-- visible content goes here -->
   <!-- <h1>DIG 245 Generative Design</h1> -->
-  <section id="intro">
-    <div class="container">
-      <h1> Clothes Generator </h1>
-    </div>
-  </section>
-
-  <section id="about">
-    <img src="assets/img/2.jpg">
-    <div class="text">
-      <h1> Who we are </h1> <br>
-      <p> We are a clothing generator company that helps you with your indecisiveness.
-        <br>To start, upload images of your clothings and label them with the approiate category.
-      </p>
-    </div>
-  </section>
 
   <section id="inputs">
     <div class="container">
-      <div class="inputHead">
-        <h1>Clothings</h1>
-      </div>
-      <form>
-        <div class="form-group">
-          <label for="imageButton">Add Image</label>
-          <input type="file" class="form-control-file" id="imageButton" hidden/>
-          <br>
-          <br>
-          <label for="categoryButton">Categories</label><br>
-          <select class="form-control" id = "categoryButton">
-            <option>Winter Top</option>
-            <option>Spring/Fall Top</option>
-            <option>Summer Top</option>
-            <option>Winter Bottom</option>
-            <option>Spring/Fall Bottom</option>
-            <option>Summer Bottom</option>
-          </select>
-        </div>
-        <br>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-      <div id="signal"></div>
-      <a href="main.html" class="next">Next &raquo;</a>
+        <h1> <div id = "temp"></div> degrees </h1>
+        <button type="submit" class="btn btn-primary">Pick for me!</button>
+        <div id = "imgTop"></div>
+        <div id = "imgBottom"></div>
+        <button type="submit" class="btn btn-primary">Another One!</button>
+
     </div>
+
   </section>
 
 
@@ -72,7 +40,7 @@
   <!-- javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/gen.js"></script>
 </body>
 
 </html>
