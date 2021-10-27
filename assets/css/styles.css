@@ -25,14 +25,20 @@ section {
   /* background-color: green; */
 }
 #about{
-  background-color: #EDE0D4;
-  color: #7F5539;
+  /* background-color: #EDE0D4;
+  color: #7F5539; */
+  background-color: #6e7474;
+  color: white;
   /* display: inline-grid; */
 }
-img{
-  width: 30vw;
+img.about{
+  width: 50vw;
   height: 100%;
   padding-left: 10vw;
+}
+img{
+  width: 50vw;
+  height: 100%;
 }
 .text{
   padding-left: 10vw;
@@ -43,7 +49,9 @@ img{
   width: 100%;
   align-items: center;
   justify-content: center;
-  display: block;
+}
+form{
+  text-align: center;
 }
 h1{
   text-align: center;
